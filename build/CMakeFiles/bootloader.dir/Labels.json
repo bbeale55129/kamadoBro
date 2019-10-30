@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/brianbeale/SW_Libraries/esp/projects/kadamoBro/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
