@@ -6,7 +6,7 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
-
+#include "functions/scan.h"
 
 void app_main(void)
 {
@@ -24,6 +24,8 @@ void app_main(void)
 
     printf("%dMB %s flash\n", spi_flash_get_chip_size() / (1024 * 1024),
             (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
+    
+    scan_main();
 
     for (int i = 10; i >= 0; i--) {
         printf("Restarting in %d seconds...\n", i);
